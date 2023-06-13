@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Cern,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: AnotherDanger;
+  src: url(./assets/fonts/Another-Danger-Slanted-Demo.ttf.woff) format('woff');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url(./assets/fonts/Rubik-Regular.ttf.woff) format('woff');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: NightMachine;
+  src: url(./assets/fonts/Night_Machine.ttf.woff) format('woff');
+  font-weight: 900;
+}
+
+.navbar {
+  background-color: #000000;
+}

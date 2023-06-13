@@ -1,0 +1,97 @@
+.stakingpage {
+  top: 73px;
+  min-height: calc(100% - 73px);
+  position: relative;
+  background-image: url('../../assets/img/BG\ 1.png');
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.stakingpageTitleSection {
+  padding-top: 1%;
+}
+
+.stakingpageTitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #3CFEF5;
+}
+
+.stakingpageTitle2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #808080;
+}
+
+.stakingpageFirstSection {
+  padding: 0 2.5rem;
+  /* height: calc(50% - 50px); */
+  /* position: relative; */
+}
+
+.stakeallbtn, .unstakeallbtn {
+  width: 123px;
+  height: 37px;
+
+  background: #DF31BB;
+  box-shadow: 0px 0px 3px 1px #DF31BB;
+  border-radius: 4px;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #FFFFFF;
+  margin: 0 15px;
+}
+
+.claimbtn {
+  width: 123px;
+  height: 37px;
+  background: #808080;
+  border-radius: 4px;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #FFFFFF;
+  margin: 0 15px;
+}
+
+.buttongroup {
+  padding: 40px 0;
+}
+
+@media only screen and (max-width: 768px)
+{
+  .stakingpage {
+    top: 100px;
+  }
+
+  .claimbtn {
+    margin-top: 5%;
+  }
+
+  .stakingpageTitle, .stakingpageTitle2 {
+    font-size: 22px;
+  }
+
+  .stakingpageTitleSection {
+    padding: 3% 0;
+  }
+}

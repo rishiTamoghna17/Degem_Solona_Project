@@ -1,0 +1,21 @@
+.stakedboxnumber {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  /* font-size: 1.6vw; */
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.stakedboxcomma {
+  color: #fcdd33;
+}
+
+@media only screen and (max-width: 768px) {
+  .stakingstastextarea {
+    margin-left: 5% !important;
+  }
+}

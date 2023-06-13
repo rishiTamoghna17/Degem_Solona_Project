@@ -1,0 +1,151 @@
+.brandText {
+  position: relative;
+  /* width: 184px; */
+  /* height: 45px; */
+  left: 11px;
+  /* top: 14px; */
+  font-family: 'AnotherDanger';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 45px;
+  /* identical to box height */
+  color: #FCDD33;
+}
+
+.brandImg {
+  width: 53px;
+  height: 53px;
+}
+
+@media only screen and (max-width: 768px)
+	{
+    .header {
+      height: 100px!important;
+    }
+
+    .headerContainer {
+      display: block;
+    }
+
+    .brandText {
+      font-size: 18px;
+    }
+
+    .brandImg {
+      width: 35px;
+      height: 35px;
+    }
+    .firstHeaderTab {
+      width: 45%;
+      top: 5%;
+      left: 20px;
+      position: absolute;
+    }
+
+    .thirdHeaderTab {
+      position: absolute;
+      top: 10%;
+      width: 45%;
+      right: 15px;
+    }
+
+    .secondHeaderTab {
+      position: relative;
+      top: 50px;
+      z-index: 99;
+    }
+
+    .walletBtn {
+      width: 149px!important;
+      height: 37px!important;
+    
+      font-size: 14px!important;
+    }
+    
+	}
+
+.firstHeaderTab {
+  display: flex;
+  align-items: center;
+}
+
+.secondHeaderTab {
+  /* display: flex;
+  align-items: center; */
+  text-align: center;
+}
+.secondHeaderText {
+  /* font-family: 'Roboto'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  /* identical to box height */
+  color: #3CFEF5!important;
+  position: relative;
+  right: 6px;
+}
+
+.secondHeaderTextt {
+  /* font-family: 'Roboto'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  /* identical to box height */
+  color: #3CFEF5!important;
+  border-bottom: #DF31BB solid 3px;
+  position: relative;
+  left: 6px;
+}
+
+a {
+  text-decoration: #DF31BB;
+}
+
+.thirdHeaderTab {
+  justify-content: end;
+  align-items: end;
+  display: flex;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  height: 73px;
+  left: 0px;
+  top: 0px;
+
+  background: #000000;
+  z-index: 9;
+}
+
+.headerContainer {
+  padding: 0 5rem;
+  height: 100%;
+  align-items: center;
+}
+
+.walletBtn {
+  /* width: 149px; */
+  /* height: 37px; */
+
+  background: #DF31BB;
+  box-shadow: 0px 0px 3px 1px #DF31BB;
+  border-radius: 4px;
+  border: none;
+
+  /* font-family: 'Rubik'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.row {
+  --bs-gutter-x: 0!important;
+}

@@ -1,0 +1,269 @@
+.rewardProgressBar {
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 13px;
+  /* height: calc(100% - 75px); */
+  /* min-height: 255px; */
+  padding: 11px 14px;
+}
+
+@media only screen and (max-width: 768px) {
+  .rewardText {
+    text-align: left !important;
+  }
+
+  .lit_circle {
+    width: 90% !important;
+  }
+
+  .gray_circle {
+    width: 80% !important;
+  }
+}
+.rewardProgressBarBorderBox {
+  width: 100%;
+  height: 100%;
+
+  border: 2px solid #b864c8;
+  border-radius: 13px;
+}
+
+.lit_circle {
+  width: 60%;
+  z-index: 9;
+}
+
+.gray_circle {
+  width: 54%;
+  padding-bottom: 8px;
+  z-index: 9;
+}
+
+.montharea {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* z-index: 5; */
+}
+
+.monthtextarea {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rewardText {
+  /* margin-top: 2%; */
+
+  font-family: "AnotherDanger";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 69px;
+
+  color: #fcdd33;
+  margin: 0;
+}
+
+.rewardprogresstext {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+  margin: 0;
+  z-index: 10;
+}
+
+.rewardprogressnumber {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #fcdd33;
+  margin: 0;
+  z-index: 10;
+}
+
+.stepper-wrapper {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.stepper-wrapper-before {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.stepper-wrapper-before .stepper-itemm {
+  position: relative;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.stepper-item-img-area {
+  position: absolute;
+  top: 17px;
+}
+
+.stepper-item-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+  margin: 0;
+}
+
+.stepper-item-value {
+  /* font-family: 'Rubik'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #fcdd33;
+  margin: 0;
+}
+
+.stepper-wrapper .stepper-itemm {
+  position: relative;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
+}
+
+.stepper-wrapper .stepper-itemm::before {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid #b3b3b3;
+  width: 100%;
+  top: 20px;
+  left: -50%;
+  z-index: 2;
+}
+
+.stepper-wrapper .stepper-itemm::after {
+  position: absolute;
+  content: "";
+  border-bottom: 19px solid #b3b3b3;
+  width: 100%;
+  top: 12px;
+  left: 50%;
+  z-index: 3;
+  border-radius: 17px;
+}
+
+.stepper-itemm .step-counter {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #808080;
+  margin-bottom: 6px;
+}
+
+.stepper-itemm.active {
+  font-weight: bold;
+}
+
+.stepper-itemm .step-counter-first {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #00cdcf;
+  margin-bottom: 6px;
+}
+
+.step-counter-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #cccccc;
+}
+
+.step-counter-circle-first {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fcdd33;
+}
+
+.stepper-itemm.completed::after {
+  position: absolute;
+  content: "";
+  border-bottom: 19px solid #df31bb;
+  width: 100%;
+  top: 12px;
+  left: 50%;
+  z-index: 3;
+  border-radius: 17px;
+}
+
+.stepper-itemm:first-child::before {
+  content: none;
+}
+.stepper-itemm:last-child::after {
+  content: none;
+}
+
+.desktopProgresss {
+  top: -50px;
+  width: 70%;
+}
+
+.leftLine,
+.rightLine {
+  background: #b3b3b3;
+  height: 10px;
+}
+
+.hiddenleftLine {
+  background: transparent;
+}
+
+.hiddenrightLine {
+  background: transparent;
+}
+
+.firstrightLine {
+  background: #df31bb;
+  height: 10px;
+}

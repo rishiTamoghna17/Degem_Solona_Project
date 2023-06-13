@@ -1,0 +1,31 @@
+.emptynft {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+  position: relative;
+  height: calc(100% - 75px);
+  margin: 0 12% 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emptynfttext {
+  font-family: "AnotherDanger";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 82px;
+
+  color: #fcdd33;
+}
+
+@media only screen and (max-width: 768px) {
+  .emptynft {
+    margin: 0;
+    padding: 10%;
+  }
+
+  .emptynfttext {
+    font-size: 32px;
+  }
+}
